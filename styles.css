@@ -7,7 +7,7 @@
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     height: 100vh;
-    background-image: linear-gradient(45deg, black, crimson);
+    background-image: linear-gradient(100deg, purple, blue, black);
 }
 
 .calculadora {
@@ -16,42 +16,52 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    border-radius: 15px;
-    padding: 15px;
+    border-radius: 10px;
+    padding: 15px 10px;
     text-align: center;
 }
 
-.calculadora button {
+button {
     width: 50px;
     height: 50px;
     font-size: 25px;
     cursor: pointer;
-    background-color: rgb(31,31,31);
+    background-color: rgb(37, 37, 37);
     border: none;
-    color: white;
+    color: rgb(255, 255, 255);
     margin: 3px;
+    border-radius: 3px;
 }
 
-.calculadora button:hover {
+button:hover {
     background-color: black;
     transition: 0.2s;
 }
 
 #botao-igual{
     height: 106px;
+    background-color: purple;
+}
+
+#botao-igual:hover{
+    background-color: rgb(102, 0, 102);
 }
 
 #botao-zero {
     width: 106px;
 }
 
+.ButtonAction{
+    background-color: rgb(24, 23, 23);
+}
+
 #resultado {
-    background-color: white;
-    width: 207px;
+    background-color: rgb(37, 37, 37);
     height: 30px;
     margin: 5px;
     font-size: 25px;
-    color: black;
+    color: rgb(255, 255, 255);
     text-align: right;
+    border-radius: 3px;
     padding: 5px;
 }

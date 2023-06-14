@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pr-br">
 
 <head>
     <meta charset="UTF-8">
@@ -12,28 +12,25 @@
 <body>
     <section class="fundo">
         <div class="calculadora">
-            <h1>Calculadora</h1>
             <p id="resultado"></p>
             <table>
                 <tr>
-                    <td><button onclick="clean()">C</button></td>
-                    <td><button onclick="back()">
-                            << /button>
-                    </td>
-                    <td><button onclick="insert('/')">/</button></td>
-                    <td><button onclick="insert('*')">X</button></td>
+                    <td><button onclick="clean()" class="ButtonAction">C</button></td>
+                    <td><button onclick="back()" class="ButtonAction">&larrb;</button></td>
+                    <td><button onclick="insert('/')" class="ButtonAction">/</button></td>
+                    <td><button onclick="insert('*')" class="ButtonAction">X</button></td>
                 </tr>
                 <tr>
                     <td><button onclick="insert('7')">7</button></td>
                     <td><button onclick="insert('8')">8</button></td>
                     <td><button onclick="insert('9')">9</button></td>
-                    <td><button onclick="insert('-')">-</button></td>
+                    <td><button onclick="insert('-')" class="ButtonAction">-</button></td>
                 </tr>
                 <tr>
                     <td><button onclick="insert('4')">4</button></td>
                     <td><button onclick="insert('5')">5</button></td>
                     <td><button onclick="insert('6')">6</button></td>
-                    <td><button onclick="insert('+')">+</button></td>
+                    <td><button onclick="insert('+')" class="ButtonAction">+</button></td>
                 </tr>
                 <tr>
                     <td><button onclick="insert('1')">1</button></td>
