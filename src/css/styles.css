@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+    background-image: url(../img/pexels-eberhardgross-1287075.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    padding: 1rem;
+    border-radius: .5rem;
+    backdrop-filter: blur(3px);
+    background-color: rgba(240, 248, 255, 0.144);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+#result {
+    height: 2rem;
+    padding: .5rem;
+    border-radius: .3rem;
+    background-color: rgba(240, 248, 255, 0.644);
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+#btns {
+    margin-top: 1rem;
+    gap: .5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.btn {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .3rem;
+    border: none;
+    background-color: rgba(240, 248, 255, 0.644);
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    transition: all 0.2 linear;
+}
+
+.btn:hover {
+    background-color: rgba(240, 248, 255, 0.788);
+    transform: scale(1.03);
+}
+
+.btn:nth-child(17) {
+    grid-column: span 2;
+    width: auto;
+}
+
+.btn:nth-child(16) {
+    grid-row: span 2;
+    height: auto;
+    background-color: rgba(116, 241, 116, 0.61);
+}
+
+.btn:nth-child(16):hover {
+    background-color: rgba(83, 250, 83, 0.61);
+}
+
+.gray {
+    background-color: rgba(165, 168, 172, 0.747);
+}
+
+.gray:hover {
+    background-color: rgba(185, 188, 190, 0.952);
+}
