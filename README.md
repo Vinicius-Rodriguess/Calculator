@@ -35,7 +35,7 @@ Ou então:
 1. **Clone este Repositório**:
 
 ```bash
-git clone https://github.com/seu-usuario/simple-calculator.git
+git clone https://github.com/Vinicius-Rodriguess/Calculator.git
 cd simple-calculator
 ```
 
